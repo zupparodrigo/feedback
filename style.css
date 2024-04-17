@@ -59,6 +59,7 @@ margin-bottom: 24px;
 .botao {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 .botao button {
@@ -71,8 +72,35 @@ margin-bottom: 24px;
     border: none;
     color: var(--medium-grey);
     background-color: var(--dark-blue);
-
+transition: all ease-in-out 0.3s;
 }
 .botao button:hover {
-    
+    color: var(--white);
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.botao button:focus {
+    color: var(--white);
+    background-color: var(--light-grey);
+}
+
+.botao2 {
+width: 100%;
+padding:13px;
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: var(--white);
+background-color: var(--orange);
+border: none;
+border-radius: 22px;
+}
+
+.botao2:hover {
+color: var(--orange);
+background-color: var(--white);
+cursor: pointer;
+
 }
