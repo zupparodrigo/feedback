@@ -85,7 +85,8 @@ transition: all ease-in-out 0.3s;
     background-color: var(--light-grey);
 }
 
-.botao2 {
+a {
+display: block;
 width: 100%;
 padding:13px;
 font-size: 15px;
@@ -95,10 +96,12 @@ letter-spacing: 2px;
 color: var(--white);
 background-color: var(--orange);
 border: none;
+text-align: center;
 border-radius: 22px;
+text-decoration: none;
 }
 
-.botao2:hover {
+a:hover {
 color: var(--orange);
 background-color: var(--white);
 cursor: pointer;
