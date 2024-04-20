@@ -5,7 +5,7 @@
     font-family: "Overpass", sans-serif;
     -webkit-font-smoothing: antialised;
     }
-
+    
     :root {
         --dark-blue: #262E38;
         --light-grey: #969FAD;
@@ -16,17 +16,15 @@
         --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     
     
-    }    
-    
+    }
     body {
         background-color: var(--very-dark-blue);
         height: 100svh;
-        
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+    
     .card {
         background: var(--black-gradient);
         max-width: 412px;

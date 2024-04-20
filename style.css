@@ -31,6 +31,7 @@ body {
     padding: 32px;
     border-radius: 30px;
 }
+
 .card h1 {
     color: var(--white);
     font-size: 28px;
