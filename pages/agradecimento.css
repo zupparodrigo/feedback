@@ -30,9 +30,12 @@
     .card {
         background: var(--black-gradient);
         max-width: 412px;
-      
-        padding: 32px;
+         text-align: center;
+        padding: 25px 32px;
         border-radius: 30px;
+    }
+    .card img {
+        margin-bottom: 32px;
     }
 
     .card h1 {
@@ -45,5 +48,18 @@
         color: var(--light-grey);
         font-size: 15px;
         line-height: 24px;
-    margin-bottom: 24px;
+       
+    }
+
+  .card  .nota {
+padding: 4px 18px;
+background-color: var(--dark-blue);
+margin-inline: auto;
+padding: 4px 18px;
+border-radius: 22px;
+width: fit-content;
+margin-bottom: 32px;
+
+font-size: 15px;
+color: var(--orange);
     }
